@@ -1,0 +1,1000 @@
+   47  ls -i a.out
+   48  clear
+   49  cat > 28.txt
+   50  ls -i 28.txt
+   51  cat > 29.txt
+   52  ls -i 29.txt
+   53  who
+   54  who |wc -l
+   55  clear
+   56  ls
+   57  cat b1.txt
+   58  nano b1.txt
+   59  ls
+   60  cp  s7a.txt s23.txt
+   61  man fopen
+   62  man fgetc
+   63  man fputc
+   64  clear
+   65  nano mp.c
+   66  cc mp.c
+   67  ./a.out
+   68  clear
+   69  cc mp.c
+   70  nano mp.c
+   71  cc mp.c
+   72  ./a.out
+   73  ./a.out ./a.out ./a.out
+   74  ./a.out & ./a.out & ./a.out
+   75  ls
+   76  cd xv6623
+   77  cd xv623
+   78  clear
+   79  make qemu-nox
+   80  clear
+   81  cd ..
+   82  pwd
+   83  mkdir J30
+   84  cd J30
+   85  pwd
+   86  cat > j3.txt
+   87  ls
+   88  ls -l 
+   89  cat > j4.txt
+   90  clear
+   91  ls
+   92  ls -l 
+   93  mkdir jk
+   94  ls
+   95  ls -l
+   96  ls -i
+   97  ls -i j3.txt
+   98  ls -i j4.txt
+   99  ls -i jk
+  100  cd jk
+  101  pwd
+  102  clear
+  103  pwd
+  104  ls -i
+  105  cat dc.txt
+  106  cat > dc.txt
+  107  clear
+  108  ls
+  109  ls -i
+  110  cd ..
+  111  pwd
+  112  ls -i
+  113  ls -i jk
+  114  ls
+  115  cp j3.txt j3c.txt
+  116  ls
+  117  clear
+  118  ls -i
+  119  cat j3.txt
+  120  cat j3c.txt
+  121  clear
+  122  ls -l
+  123  ln j3.txt j3l.txt
+  124  ls -l
+  125  ls -i
+  126  cat j3.txt
+  127  clear
+  128  ls
+  129  cat j3.txt
+  130  cat j3l.txt
+  131  ls -i 
+  132  rm j3.txt
+  133  ls
+  134  clear
+  135  ls -i
+  136  ln j31.txt j3.txt
+  137  ln j3l.txt j3.txt
+  138  clear
+  139  ls -i
+  140  ls -l
+  141  ln -s j3.txt j3sl.txt 
+  142  ls
+  143  ls -l
+  144  clear
+  145  ls -i
+  146  cat j3.txt
+  147  cat j3sl.txt
+  148  ls -al
+  149  clear
+  150  ls
+  151  rm j3.txt
+  152  ls -l
+  153  cat j3.txt
+  154  cat j3sl.txt
+  155  cat > j3.txt
+  156  ls -l
+  157  clear
+  158  ls
+  159  cat j3.txt
+  160  cat jesl.txt
+  161  cat j3sl.txt
+  162  rm j3.txt
+  163  ls -l
+  164  cat > j3.txt
+  165  clear
+  166  ls -l
+  167  rm jesl.txt
+  168  rm j3sl.txt
+  169  ls -l
+  170  ls
+  171  mv xv623 xv6
+  172  ls
+  173  clear
+  174  cd xv6
+  175  make qemu-nox
+  176  clear
+  177  ls
+  178  nano mycat.c
+  179  nano Makefile 
+  180  clear
+  181  make qemu-nox
+  182  nano sq.c
+  183  make qemu-nox
+  184  nano Makefile 
+  185  make qemu-nox
+  186  nano sq.c
+  187  make qemu-nox
+  188  nano sq.c
+  189  make qemu-nox
+  190  nano sq.c
+  191  make qemu-nox
+  192  ls
+  193  clear
+  194  nano sq.c
+  195  cd xv6/
+  196  nano sq.c
+  197  make qemu-nox
+  198  nano sq.c
+  199  clear
+  200  make qemu-nox
+  201  nano sq.c
+  202  make qemu-nox
+  203  nano sq.c
+  204  make qemu-nox
+  205  ls
+  206  clear
+  207  ls -i
+  208  clear
+  209  ls
+  210  cd AOS/
+  211  cd lab2
+  212  ls
+  213  java Server
+  214  cd AOS/
+  215  ls
+  216  mkdir lab1
+  217  ls
+  218  mv *.* lab1/
+  219  ls
+  220  mkdir lab2
+  221  ls
+  222  cd lab1
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd lab2
+  227  ls
+  228  nano Client.java
+  229  nano Hello.java
+  230  nano ImplExample.java
+  231  nano Server.java
+  232  javac *.java
+  233  rmic Hello
+  234  rmiregistry 5000
+  235  cd AOS/
+  236  ls
+  237  cd lab2
+  238  ls
+  239  cd AOS/
+  240  ls
+  241  cd lab1
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd lab2
+  246  clear
+  247  ls
+  248  cd AOS/
+  249  ls
+  250  cd lab2
+  251  ls
+  252  cd AOS/
+  253  cd ..
+  254  ls
+  255  cd ..
+  256  ls
+  257  clear
+  258  ls
+  259  clear
+  260  ls
+  261  passwd osd-jhansi
+  262  sudo passwd osd-jhansi
+  263  ls
+  264  exit
+  265  ls
+  266  cd AOS/
+  267  ls
+  268  cd lab2
+  269  ls
+  270  java Client
+  271  ls
+  272  cd
+  273  ls
+  274  cd AOS
+  275  ls
+  276  cd lab2/
+  277  ls
+  278  javac *.java
+  279  rmiregistry &
+  280  java Server
+  281  cd AOS/
+  282  cd lab2
+  283  ls
+  284  javac *.java
+  285  rmiregistry &
+  286  java Server
+  287  ls -il
+  288  clear
+  289  ls
+  290  ls -l
+  291  clear
+  292  ls
+  293  cd xv6
+  294  ls
+  295  ls -l
+  296  clear
+  297  ls -il
+  298  clear
+  299  ls
+  300  clear
+  301  ls -il M*
+  302  make clean
+  303  clear
+  304  ls
+  305  pwd
+  306  ls
+  307  ls -i
+  308  exit
+  309  ls
+  310  mv 22_a OSD/
+  311  mv 23s.c.save.1 OSD/
+  312  ls
+  313  mv *.c OSD/
+  314  ls
+  315  mv *.txt OSD/
+  316  ls
+  317  clear
+  318  ls
+  319  mv J30 OSD/
+  320  mv s7 OSD/
+  321  mv xv6 OSD/
+  322  mv xv6 OSD/xv6-1
+  323  ls
+  324  mv hai OSD/
+  325  ls
+  326  mv passwd.bak OSD/
+  327  ls
+  328  mv 23s.c.save OSD/
+  329  ls
+  330  mv a.out OSD/
+  331  ls
+  332  mv pin OSD/
+  333  ls
+  334  clear
+  335  ls
+  336  cd OSD
+  337  ls
+  338  mv xv* skill/
+  339  ls
+  340  mv *.c lab/
+  341  ls
+  342  clear
+  343  ls
+  344  mv *.txt lab/
+  345  ls
+  346  rm aos.java.save 
+  347  ls
+  348  rm *.class
+  349  ls
+  350  clear
+  351  ls
+  352  ls -i J30
+  353  mkdir class
+  354  ls
+  355  mv J30 class/
+  356  ls
+  357  clear
+  358  ls
+  359  ls -i m5
+  360  clear
+  361  ls
+  362  rm userson23
+  363  ls
+  364  rm m*
+  365  rm m1
+  366  rm m2
+  367  ls
+  368  ls -i m5
+  369  clear
+  370  ls
+  371  mkdir more
+  372  mv 22_a more/
+  373  mv hai more/
+  374  mv lab1 more/
+  375  mv passwd.bak more
+  376  ls
+  377  ls -i BC
+  378  cat BC/buffer.py 
+  379  clear
+  380  ls
+  381  mv 23s.c.save more/
+  382  mv 23s.c.save.1 more/
+  383  ls
+  384  rm a
+  385  rm pin
+  386  rm s7
+  387  rm s7la
+  388  rm s7lab 
+  389  ls
+  390  clear
+  391  ls
+  392  rm e
+  393  rm f
+  394  ls
+  395  mv BC more/
+  396  ls
+  397  rm a.out
+  398  ls
+  399  clear
+  400  ls
+  401  cd lab
+  402  ls
+  403  exit
+  404  ls
+  405  cd OSD
+  406  ls
+  407  cd lab/
+  408  ls
+  409  mkdir lab2
+  410  ls
+  411  cd lab2
+  412  ls
+  413  clear
+  414  nano p4.c
+  415  cc p4.c
+  416  ./a.out
+  417  ls
+  418  cat p4.output
+  419  nano dup2.c
+  420  cc dup2.c
+  421  cat > f1
+  422  ./a.out f1 f2 sort -n
+  423  cat f2
+  424  sort -n f1
+  425  ls
+  426  clear
+  427  nano process.c
+  428  clear
+  429  cc process.c
+  430  ./a.out
+  431  nano process.c
+  432  cc process.c
+  433  ./a.out
+  434  man exit
+  435  man 2 exit
+  436  clear
+  437  nano showerror.c
+  438  cc showerror.c
+  439  nano showerror.c
+  440  cc showerror.c
+  441  ./a.out
+  442  nano showerror.c
+  443  clear
+  444  cc showerror.c
+  445  nano showerror.c
+  446  clear
+  447  cc showerror.c
+  448  ./a.out
+  449  clear
+  450  ls
+  451  man dup2
+  452  cd ..
+  453  ls
+  454  cd lab1
+  455  nano cat.c
+  456  cat > F2.txt
+  457  ls
+  458  cat s7.c
+  459  clear
+  460  ls
+  461  cc cat.c
+  462  ./a.out
+  463  clear
+  464  nano ccp.c
+  465  cc ccp.c
+  466  ./a.out
+  467  ls
+  468  cat passwd.bak 
+  469  clear
+  470  ls
+  471  cat F2.txt
+  472  nano fork.c
+  473  cc fork.c
+  474  ./a.out
+  475  clear
+  476  cd ..
+  477  cd lab2
+  478  ls
+  479  nano sher.c
+  480  cc sher.c
+  481  ./a.out
+  482  nano sher.c
+  483  cc sher.c
+  484  nano sher.c
+  485  clear
+  486  cc sher.c
+  487  ./a.out
+  488  nano sher.c
+  489  ls
+  490  ./show_errno.c 
+  491  ls
+  492  rm show_errno.c 
+  493  rm showerrno.c 
+  494  ls
+  495  rm showerror.c
+  496  ls
+  497  clear
+  498  ls
+  499  nano she.c
+  500  cc she.c
+  501  nano she.c
+  502  cc she.c
+  503  nano she.c
+  504  cc she.c
+  505  nano she.c
+  506  clear
+  507  cc she.c
+  508  ./a.out
+  509  ls
+  510  clear
+  511  ls
+  512  man 2 getpid
+  513  ls
+  514  cd OSD
+  515  ls
+  516  man 2 getuid
+  517  man 2 getgid
+  518  clear
+  519  cd lab2
+  520  ls
+  521  cd lab
+  522  clear
+  523  ls
+  524  cd lab2
+  525  ls
+  526  nano process.c 
+  527  cc process.c 
+  528  ./a.out
+  529  ps
+  530  ps -a
+  531  man ps
+  532  top
+  533  man top
+  534  ls
+  535  nano she.c
+  536  clear
+  537  man 3 strerror
+  538  nano she.c
+  539  cc  she.c
+  540  ./a.out
+  541  clear
+  542  ./a.out &
+  543  clear
+  544  ./a.out &
+  545  man 2 perror
+  546  man 3 perror
+  547  clear
+  548  man 2 open
+  549  nano show_errno.c
+  550  cc show_errno.c
+  551  ./a.out
+  552  clear
+  553  man execvp
+  554  cat > e1
+  555  cat e1
+  556  claer
+  557  clear
+  558  sort -n e1
+  559  ls
+  560  nano cp.c
+  561  cat > f1.txt
+  562  ls
+  563  cd OSD
+  564  ls
+  565  cd skill
+  566  ls
+  567  cd xv6
+  568  ls -l |wc -l
+  569  cd ..
+  570  cd xv6-2021
+  571  ls
+  572  ls -l |wc -l
+  573  clear
+  574  make qemu-nox
+  575  nano mycp.c
+  576  nano Makefile 
+  577  make clean
+  578  clear
+  579  make qemu-nox
+  580  clear
+  581  ls
+  582  cd osd
+  583  cd OSD/
+  584  ls
+  585  cd skill
+  586  ls
+  587  cd xv6-2021
+  588  ls
+  589  nano mywc.c
+  590  nano Makefile 
+  591  make clean
+  592  clear
+  593  make qemu-nox
+  594  ls
+  595  who
+  596  who | wc -l
+  597  exit
+  598  ls
+  599  cd OSD
+  600  ls
+  601  cd skill
+  602  ls
+  603  cd xv6
+  604  clear
+  605  ls
+  606  clear
+  607  who 
+  608  who | wc -l
+  609  clear
+  610  man grep
+  611  grep "getpid" -n *
+  612  clear
+  613  grep "getpid" -n * | wc -l
+  614  make clean
+  615  clear
+  616  grep "getpid" -n * | wc -l
+  617  make qemu-nox
+  618  clear
+  619  grep "getpid" -n * | wc -l
+  620  grep "getpid" -n * | wc 
+  621  grep "getpid" -n init.c
+  622  grep "getpid" -n sh.c
+  623  grep "getpid" -n Makefile 
+  624  grep "getpid" -n syscall.c
+  625  grep "getpid" -n syscall.h
+  626  grep "getpid" -n sysproc.c
+  627  grep "getpid" -n user.h
+  628  grep "getpid" -n usys.S
+  629  clear
+  630  nano syscall.c
+  631  nano sysproc.c
+  632  nano user.h
+  633  nano usys.S
+  634  nano sqn.c
+  635  nano Makefile 
+  636  make clean
+  637  make
+  638  clear
+  639  make qemu-nox
+  640  make clean
+  641  clear
+  642  nano Makefile 
+  643  make clean
+  644  make qemu-nox
+  645  nano Makefile 
+  646  clear
+  647  make qemu-nox
+  648  clear
+  649  make clear
+  650  make clean
+  651  make
+  652  make qemu-nox
+  653  clear
+  654  nano sqn.c
+  655  nano Makefile 
+  656  nano syscall.h
+  657  make clean
+  658  make
+  659  nano syscall.c
+  660  clear
+  661  make
+  662  make qemu-nox
+  663  nano usys.S
+  664  clear
+  665  make qemu-nox
+  666  clear
+  667  nano mycp.c
+  668  nano Makefile 
+  669  make clean
+  670  make
+  671  make qemu-nox
+  672  nano mywc.c
+  673  nano Makefile 
+  674  clear
+  675  make clean
+  676  make
+  677  make qemu-nox
+  678  pwd
+  679  clear
+  680  nano pwd.c
+  681  nano Makefile 
+  682  make qemu-nox
+  683  clear
+  684  nano mv.c
+  685  nano Makefile 
+  686  make qemu-nox
+  687  who 
+  688  who > 07082021
+  689  cat 07082021
+  690  sort -n 07082021 
+  691  who | wc -l
+  692  exit
+  693  ls
+  694  nano cp.c
+  695  cc cp.c
+  696  nano cp.c
+  697  clear
+  698  cc cp.c
+  699  ./a.out
+  700  strace ./a.out
+  701  clear
+  702  strace ls
+  703  clear
+  704  strace ls > temp
+  705  strace ls > a1
+  706  clear
+  707  strace ls > a2
+  708  ls
+  709  nano a2
+  710  clear
+  711  strace ls | wc -l
+  712  strace ls | wc -l > b5
+  713  ls
+  714  nano b5
+  715  nano e1.c
+  716  cc e1.c
+  717  strace ./a.out
+  718  strace -c  ./a.out
+  719  clear
+  720  ls
+  721  cd OSD
+  722  ls
+  723  cd skill
+  724  ls
+  725  cd xv6
+  726  ls
+  727  make qemu-nox
+  728  ls
+  729  cd OSD
+  730  ls
+  731  cd skill
+  732  ls
+  733  cd xv6
+  734  ls
+  735  nano mv.c
+  736  cp mv.c mv1.c
+  737  nano mv.c
+  738  rm mv.c
+  739  nano mv.c
+  740  make qemu-nox
+  741  nano mv.c
+  742  make qemu-nox
+  743  rm mv.c
+  744  clear
+  745  nano mv.c
+  746  cc mv.c
+  747  rm mv.c
+  748  clear
+  749  nano mv.c
+  750  make qemu-nox
+  751  nano mysh.c
+  752  nano Makefile 
+  753  clear
+  754  make qemu-nox
+  755  ls
+  756  cd OSD
+  757  ls
+  758  cd skill
+  759  ls
+  760  cd xv6
+  761  ls s*
+  762  cp sqn.c sqrt.c
+  763  nano sqrt.c
+  764  nano sysproc.c
+  765  make qemu-nox
+  766  nano sysproc.c
+  767  make qemu-nox
+  768  nano sysproc.c
+  769  make qemu-nox
+  770  nano sysproc.c
+  771  make qemu-nox
+  772  ls
+  773  cd OSD
+  774  ls
+  775  cd lab/
+  776  ls
+  777  clear
+  778  ls
+  779  cd OSD
+  780  ls
+  781  cd skill
+  782  ls
+  783  cd xv6
+  784  ls
+  785  nano usys.S
+  786  nano syscall.h
+  787  nano sqr.c
+  788  nano sqn.c
+  789  make qemu-nox
+  790  ls
+  791  cd OSD
+  792  ls
+  793  cd skill
+  794  ls
+  795  cd xv6
+  796  nano syscall.c
+  797  nano syscall.h
+  798  nano user.h
+  799  make qemu-nox
+  800  nano syscall.
+  801  nano syscall.c
+  802  make qemu-nox
+  803  ls
+  804  cd OSD
+  805  ls
+  806  cd skill
+  807  ls
+  808  cd xv6
+  809  ls
+  810  nano syscall.h
+  811  nano syscall.c
+  812  nano sysproc.c
+  813  make qemu-nox
+  814  nano syscall.c
+  815  nano sysproc.c
+  816  make qemu-nox
+  817  ls
+  818  cd OSD
+  819  ls
+  820  cd skill
+  821  ls
+  822  cd xv6
+  823  ls
+  824  nano sysproc.c
+  825  make qemu-nox
+  826  nano sqn.c
+  827  make qemu-nox
+  828  nano sqn.c
+  829  nano sysproc.c
+  830  make qemu-nox
+  831  nano sysproc.c
+  832  nano mypro.c
+  833  nano Makefile 
+  834  make qemu-nox
+  835  cp  mypro.c myproc.c
+  836  make qemu-nox
+  837  nano myproc.c
+  838  make qemu-nox
+  839  clear
+  840  ls
+  841  cd OSD
+  842  ls
+  843  cd skill
+  844  ls
+  845  clear
+  846  ls
+  847  man pwd
+  848  pwd
+  849  man pwd
+  850  pwd -l
+  851  pwd -L
+  852  man pwd
+  853  pwd -P
+  854  cat /temp.pwd
+  855  cat temp.pwd
+  856  ls temp
+  857  clear
+  858  cat > tf
+  859  ls
+  860  mv tf tempf
+  861  ls
+  862  mv tempf /temp/tempf
+  863  mv tempf ~/temp/tempf
+  864  mv tempf ~//temp/tempf
+  865  mv tempf temp/tempf
+  866  mv tempf ~/temp/tempf
+  867  clear
+  868  ls
+  869  cd xv6
+  870  ls
+  871  clear
+  872  ls t*
+  873  make clean
+  874  make qemu-nox
+  875  clear
+  876  ls
+  877  cd ..
+  878  clear
+  879  ls
+  880  cp tempf t2
+  881  ls
+  882  ls -i
+  883  ln tempf t3
+  884  ls
+  885  cat t3
+  886  cat tempf
+  887  ls -i
+  888  clear
+  889  ls -s t2 t6
+  890  ln -s t2 t6
+  891  ls -i
+  892  ls -l
+  893  clear
+  894  ls
+  895  cat a1
+  896  clear
+  897  ls
+  898  cat temp
+  899  wc temp
+  900  clear
+  901  ls
+  902  cat temp
+  903  cat >> temp
+  904  clear
+  905  cat temp
+  906  wc temp
+  907  clear
+  908  wc
+  909  wc temp 
+  910  wc temp5
+  911  wc
+  912  wc temp
+  913  cat temp
+  914  clear
+  915  ls
+  916  cd OSD
+  917  cd skill/
+  918  ls
+  919  cd xv6
+  920  clear
+  921  nano cdown.c
+  922  nano Makefile 
+  923  make clean
+  924  make 
+  925  clear
+  926  make qemu-nox
+  927  nano cdown.c
+  928  clear
+  929  make qemu-nox
+  930  clear
+  931  nano pwdxv6.c
+  932  nano Makefile 
+  933  make clean
+  934  make
+  935  clear
+  936  make qenu-nox
+  937  make qemu-nox
+  938  ls
+  939  cd OSD
+  940  cd skill
+  941  ls
+  942  cd xv6
+  943  nano pwd.c
+  944  make clean
+  945  clear
+  946  make 
+  947  clear
+  948  make qemu-nox
+  949  clear
+  950  ls
+  951  cd ..
+  952  clear
+  953  ls
+  954  cd xv6-srp/
+  955  make qemu-nox
+  956  clear
+  957  cd ..
+  958  clear
+  959  ls
+  960  git clone git://github.com/mit-pdos/xv6-public.git xv6N 
+  961  git clone git://github.com/mit-pdos/xv6-public.git xv6n
+  962  clear
+  963  ls
+  964  cd xv6n
+  965  make qemu-nox
+  966  nano pwd.c
+  967  nano Makefile 
+  968  make clean
+  969  make qemu-nox
+  970  nano mv.c
+  971  nano Makefile 
+  972  make qemu-nox
+  973  ls
+  974  make clean
+  975  clear
+  976  make qemu-nox
+  977  ls
+  978  cd AOS
+  979  ls
+  980  cd lab2
+  981  ls
+  982  java Server
+  983  clear
+  984  ls
+  985  java Client
+  986  ls
+  987  cd AOS
+  988  ls
+  989  cd lab2
+  990  ls
+  991  rm *.class
+  992  ls
+  993  javac *.java
+  994  rmiregistry &
+  995  clear
+  996  ls
+  997  java Server
+  998  ls
+  999  git config --global user.name "mohanchgit"
+ 1000  git config --global user.email "mail2mohan.ch@gmail.com"
+ 1001  git config --list
+ 1002  mkdir git-local
+ 1003  d git-local/
+ 1004  cd git-local/
+ 1005  git init
+ 1006  ls -a
+ 1007  git status
+ 1008  echo "welcome to osd s7" > mohan.txt
+ 1009  git status
+ 1010  ls -la
+ 1011  git add mohan.txt
+ 1012  git status
+ 1013  git commit -m "first 13.08.2021"
+ 1014  git status
+ 1015  git log
+ 1016  git commit -m "second 13.08.2021"
+ 1017  git status
+ 1018  git branch feature
+ 1019  git branch 
+ 1020  git branch lab
+ 1021  git branch skill
+ 1022  git branch 
+ 1023  git checkout lab
+ 1024  git branch 
+ 1025   echo "i am in lab branch " >> mohan.txt
+ 1026  git add mohan.txt
+ 1027  git commit -m "3rd"
+ 1028  git checkout master 
+ 1029  git branch 
+ 1030  git log
+ 1031  git merge lab
+ 1032  git log
+ 1033  git branch 
+ 1034  git branch -d lab
+ 1035  git log
+ 1036  git remote add origin https://github.com/mohanchgit/e1.git
+ 1037  git remote --verbose
+ 1038  git log
+ 1039  git add mohan.txt 
+ 1040  git log
+ 1041  git commit
+ 1042  git commit -m "4th"
+ 1043  git status
+ 1044  git push origin master
+ 1045  git log
+ 1046  history > m1.txt
